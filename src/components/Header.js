@@ -56,11 +56,11 @@ function Header() {
           </Link>
           {/*4 link*/}
           <Link to="/checkout" className="header__link">
-            <div className="header__optionBasket">
-              <ShoppingCartRoundedIcon />
-              <span className="header__optionLineTwo header__basketCount">
+            <div className="header__optionBasket header__option">
+              <span className="header__basketCount header__optionLineTwo">
                 0
               </span>
+              <ShoppingCartRoundedIcon />
             </div>
           </Link>
         </div>
