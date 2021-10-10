@@ -15,7 +15,8 @@ function App() {
           </Route>
           <Route path="/">
             <Header />
-            <h1>Home</h1> {/*Default page */}
+            <h1>Home</h1>
+            {/*Default page */}
           </Route>
         </Switch>
       </div>
