@@ -16,7 +16,7 @@ function Header() {
             alt=""
           />
         </Link>
-        <Link to="/login-page" className="header__link">
+        <Link to="/location" className="header__link">
           <div className="header__option">
             <span className="header__optionLineOne">Hello RK</span>
             <span className="header__optionLineTwo">Select your location</span>

@@ -15,6 +15,9 @@ function App() {
           <Route path="/login-page">
             <h1>Login-Page</h1>
           </Route>
+          <Route path="/location">
+            <h1>Location</h1>
+          </Route>
           <Route path="/">
             <Header />
             <Home />
