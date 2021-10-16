@@ -1,7 +1,7 @@
 //setup data layer
 //need this to track the basket
 
-import { createContext, useReducer } from "react";
+import { createContext, useContext, useReducer } from "react";
 
 //this is the data layer
 export const StateContext = createContext();
@@ -12,3 +12,4 @@ export const StateProvider = ({ reducer, initialState, children }) => (
     {children}
   </StateContext.Provider>
 );
+export const useStateValue = () => useContext(StateContext);
