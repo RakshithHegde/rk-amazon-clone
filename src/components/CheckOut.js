@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/CheckOut.css";
 import { useStateValue } from "./StateProvider";
 function CheckOut() {
   const [{ basket }] = useStateValue();
