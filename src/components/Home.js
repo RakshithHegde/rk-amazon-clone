@@ -50,10 +50,10 @@ function Home() {
           />
           <Product
             id={12425466}
-            title="Winston Echo Cushion - Sofa - Fog Frame "
-            price={22248.99}
+            title="Apple iPhone 13 Pro Space Grey, 128gb"
+            price={72248.99}
             rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/71PzDeA6COL._AC_SL1500_.jpg"
+            image="https://m.media-amazon.com/images/I/61eDXs9QFNL._SL1500_.jpg"
           />
         </div>
         <div className="home__row">
