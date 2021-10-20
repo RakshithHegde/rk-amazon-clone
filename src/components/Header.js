@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Header.css";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import { useStateValue } from "./StateProvider";
