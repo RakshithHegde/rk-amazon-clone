@@ -17,17 +17,21 @@ function Login() {
 
         <form action="">
           <h5>E-mail</h5>
-          <input type="text" />
+          <input type="email" />
           <h5>Password</h5>
-          <input type="text" />
-          <button>Sign-in</button>
+          <input type="password" />
+          <button type="submit" className="login__signInbutton">
+            Sign-in
+          </button>
         </form>
         <p>
           By signing-in you agree to Amazon's Conditions of Use & Sale. Please
           see our Privacy Notice, our Cookies Notice and our Interest-Based Ads
           Notice
         </p>
-        <button>Create your Amazon Account</button>
+        <button className="login__registerButton">
+          Create your Amazon Account
+        </button>
       </div>
     </div>
   );

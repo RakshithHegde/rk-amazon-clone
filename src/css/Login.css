@@ -31,3 +31,26 @@
   background-color: white;
   width: 98%;
 }
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.login__signInbutton {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-radius: 2px;
+  width: 100%;
+  margin-top: 10px;
+  color: #111;
+  height: 30px;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+}
+.login__registerButton {
+  border: 1px solid;
+  border-radius: 2px;
+  width: 100%;
+  margin-top: 10px;
+  height: 30px;
+  cursor: pointer;
+}
