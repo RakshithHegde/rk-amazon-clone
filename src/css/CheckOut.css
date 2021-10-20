@@ -7,3 +7,9 @@
   padding: 10px;
   border-bottom: 1px solid lightgray;
 }
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+}
